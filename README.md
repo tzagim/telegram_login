@@ -1,7 +1,7 @@
-# telegram login
+# Telogin - Telegram login
 A simple Python file to create a session string.
 
-# installation
+# Installation
 You must install telethon to use this script
 ```
 $ sudo apt install python3-telethon
@@ -11,7 +11,7 @@ OR
 $ python3 -m pip install telethon
 ```
 
-# how to use
+# How to use
 To use a script:
 
 + Go to: https://my.telegram.org  > [API development tools](https://my.telegram.org/apps) > creating a new app (if you don't have one).
