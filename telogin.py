@@ -1,4 +1,4 @@
-import os, json
+import os, json, asyncio
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 
@@ -53,5 +53,4 @@ async def main():
 
 # Run the client
 if __name__ == '__main__':
-    import asyncio
     asyncio.run(main())
