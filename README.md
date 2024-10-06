@@ -15,7 +15,8 @@ $ python3 -m pip install telethon
 To use a script:
 
 + Go to: https://my.telegram.org  > [API development tools](https://my.telegram.org/apps) > creating a new app (if you don't have one).
-+ The data you need later is: `App api_id` & `App api_hash`.
++ Choose short app name (this is the name that will appear in the list of connected devices).
++ The data you need later is: App `api_id` & `api_hash`.
 + Download `telogin.py`
 + Run the script:
 ```
@@ -23,9 +24,9 @@ $ python3 telogin.py
 ```
 
 The script will ask for:
-+ Phone number (in international format, but it is not mandatory to put + at the beginning
-+ api_id
-+ api_hash
++ Phone number (in international format, but it is not mandatory to put + at the beginning).
++ `api_id`
++ `api_hash`
 + The login code received
 + Two-step verification (if you have it)
 
@@ -44,3 +45,5 @@ You can also see in the terminal
 Signed in successfully as YOUR_NAME; remember to not break the ToS or you will risk an account ban!
 Session string: abcdefghig-klmnopqr=
 ```
+
+**Do not disconnect `SHORT_APP_NAME` from the list of connected devices, this will cause the user to no longer be able to connect with the created string, it will be necessary to create a new one.**
